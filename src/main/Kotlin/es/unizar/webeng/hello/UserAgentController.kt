@@ -1,4 +1,9 @@
-package es.unizar.webeng.hello;
+package es.unizar.webeng.hello
+
+import org.springframework.stereotype.Controller
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestHeader
+import java.util.*
 
 /**
  * The UserAgentController program implements an application that
@@ -8,18 +13,9 @@ package es.unizar.webeng.hello;
  * @author Daniel Huici Meseguer (758635)
  * @version 1.0
  * @since 09/17/2020
- *
  */
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestHeader;
-import java.util.Date;
-import java.util.Map;
-
 @Controller
-public class UserAgentController {
-
+class UserAgentController {
     /**
      * This method is called when requested by GET petition to
      * the user-agent webpage (/user-agent). It simply puts
@@ -29,12 +25,10 @@ public class UserAgentController {
      * @param model This is the map where we put the data
      * @return JSP name view.
      */
-
     @GetMapping("/user-agent")
-    public String welcome(@RequestHeader(value = "User-Agent") String userAgent, Map<String, Object> model) {
-        model.put("time", new Date());
-        model.put("message", userAgent);
-        return "wellcome";
+    fun welcome(@RequestHeader(value = "User-Agent") userAgent: String?, model: MutableMap<String?, Any?>): String {
+        model["time"] = Date()
+        model["message"] = userAgent
+        return "wellcome"
     }
-
 }
