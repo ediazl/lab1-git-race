@@ -46,4 +46,4 @@ User name | NIA | Travis-CI|Score
 [Andrés Otero García](https://github.com/andrewknoll/lab1-git-race) | 757755 | [![Build Status](https://travis-ci.com/andrewknoll/lab1-git-race.svg)](https://travis-ci.com/andrewknoll/lab1-git-race) | :gift:
 [Saúl Flores Benavente](https://github.com/saul205/lab1-git-race) | 755769 | [![Build Status](https://travis-ci.org/saul205/lab1-git-race.svg)](https://travis-ci.org/saul205/lab1-git-race) | :gift:
 [Irene Fumanal Lacoma](https://github.com/irefu/lab1-git-race)  | 758325 | [![Build Status](https://travis-ci.com/irefu/lab1-git-race.svg)](https://travis-ci.com/irefu/lab1-git-race) | :gift:
-your name | your nia | your Travis-ci status
+[Álvaro Santamaría de la Fuente](https://github.com/SanTa45zgz/lab1-git-race) | 756308 | [![Build Status](https://travis-ci.com/SanTa45zgz/lab1-git-race.svg)](https://travis-ci.com/SanTa45zgz/lab1-git-race)
